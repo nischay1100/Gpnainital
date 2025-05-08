@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News - GP Nainital</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f4f4f4;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .logo img {
+      height: 60px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 10px 0 0 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #f4f4f4;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff6347;
+    }
+
+    h1.heading {
+      text-align: center;
+      color: #ff6347;
+      margin: 20px 0 10px 0;
+      font-size: 2.2rem;
+    }
+
+    .marquee {
+      height: 50px;
+      overflow: hidden;
+      background-color: #333;
+      color: #f4f4f4;
+      font-size: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      animation: scroll 15s linear infinite;
+    }
+
+    .marquee p {
+      padding: 15px;
+      margin: 0;
+      text-align: center;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateY(100%); }
+      100% { transform: translateY(-100%); }
+    }
+
+    .news-content {
+      padding: 20px;
+      margin: 30px;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+    }
+
+    .news-content h2 {
+      color: #ff6347;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .news-content .news-item {
+      background-color: #2b2b2b;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 15px;
+      transition: background-color 0.3s;
+    }
+
+    .news-content .news-item:hover {
+      background-color: #3a3a3a;
+    }
+
+    .news-content .news-item h3 {
+      color: #00bcd4;
+      margin-bottom: 10px;
+    }
+
+    .news-content p {
+      font-size: 1.1rem;
+      color: #ddd;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #bbb;
+      padding: 15px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="images/logo.png" alt="GPN Logo"></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Heading -->
+  <h1 class="heading">Latest News & Announcements</h1>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <p>Admission Open for 2025 Batch</p>
+    <p>Semester Exam Results Declared</p>
+    <p>Annual Sports Week Coming Soon</p>
+    <p>NCC Camp Registration Open</p>
+  </div>
+
+  <!-- News Section -->
+  <div class="news-content">
+    <h2>Recent News</h2>
+
+    <div class="news-item">
+      <h3>Admission Open for 2025 Batch</h3>
+      <p>The admissions for the 2025 academic batch are now open. Visit our Admissions page for more details on the application process and deadlines.</p>
+    </div>
+
+    <div class="news-item">
+      <h3>Semester Exam Results Declared</h3>
+      <p>The results of the semester exams have been announced. Students can check their results on the official website or through the student portal.</p>
+    </div>
+
+    <div class="news-item">
+      <h3>Annual Sports Week Coming Soon</h3>
+      <p>The Annual Sports Week is scheduled to be held next month. Students are encouraged to participate in various sports activities. Stay tuned for the event schedule!</p>
+    </div>
+
+    <div class="news-item">
+      <h3>NCC Camp Registration Open</h3>
+      <p>The registration for the NCC camp is now open. Interested students can apply through the NCC coordinator. The camp will be held next month.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GP Nainital | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

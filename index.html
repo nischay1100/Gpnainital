@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Government Polytechnic Nainital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="GPN Nainital Logo">
+    </div>
+    <nav>
+        <ul>
+        
+        <li><a href="about.html">About</a></li>
+        <li><a href="news_page.html">News</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <section class="welcome" id="about">
+    <div class="container">
+      <h2>Welcome to Government Polytechnic Nainital</h2>
+      <p>Established in 1975, Government Polytechnic Nainital has been a beacon of technical education in Uttarakhand, offering diverse diploma programs to empower students for the future.</p>
+    </div>
+  </section>  <section class="important-links">
+    <div class="container">
+      <h2>Important Links</h2>
+      <ul>
+        <li><a href="http://www.ubter.in/" target="_blank">UBTER, Roorkee</a></li>
+        <li><a href="http://www.aicte-india.org/" target="_blank">AICTE</a></li>
+        <li><a href="http://www.aicte-india.org/prmportal_enu/start.swe?SWECmd=Logoff&SWETS=1487235831575" target="_blank">AICTE Web Portal</a></li>
+        <li><a href="http://www.uk.gov.in/" target="_blank">G.O. Uttarakhand</a></li>
+        <li><a href="http://www.ekosh.uk.gov.in/" target="_blank">Core Treasury Uttarakhand</a></li>
+        <li><a href="http://www.pci.nic.in/" target="_blank">PCI</a></li>
+        <li><a href="http://gpnainital.org/misc_download.aspx" target="_blank">Formats-Staff</a></li>
+        <li><a href="http://www.boatnr.org/" target="_blank">APPRENTICESHIP</a></li>
+        <li><a href="http://ukdte.org/" target="_blank">DTE</a></li>
+        <li><a href="http://gpnainital.org/#" target="_blank">Tender</a></li>
+      </ul>
+    </div>
+  </section>  <section class="news-events" id="news">
+    <div class="container">
+      <h2>Latest News & Events</h2>
+      <iframe src="news.html" scrolling="no" frameborder="0" width="100%" height="200px"></iframe>
+    </div>
+  </section>  <section class="downloads" id="downloads">
+    <div class="container">
+      <h2>Downloads</h2>
+      <ul>
+        <li><a href="downloads/result.pdf" target="_blank">Result Download</a></li>
+        <li><a href="downloads/topper_list.pdf" target="_blank">Topper List</a></li>
+      </ul>
+    </div>
+  </section>  <section class="principal-message">
+    <div class="container">
+      <h2>Principal's Message</h2>
+      <p>Welcome to Government Polytechnic Nainital. Our institution is dedicated to providing quality technical education and fostering an environment of innovation and excellence. We strive to equip our students with the skills and knowledge necessary to excel in their respective fields.</p>
+      <p><strong>Mr. A. K. S Gaur</strong><br>Principal</p>
+    </div>
+  </section>  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="slideshow">
+        <img src="gallery1.jpg" alt="Gallery Image 1" class="active">
+        <img src="gallery2.jpg" alt="Gallery Image 2">
+        <img src="gallery3.jpg" alt="Gallery Image 3">
+      </div>
+    </div>
+  </section>  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> Sherwani, Nainital, Uttarakhand 263001</p>
+      <p><strong>Phone:</strong> +91-5942-236251</p>
+      <p><strong>Email:</strong> gpnainital-dte-uk@nic.in</p>
+    </div>
+  </section>  <footer>
+    <div class="container">
+      <p>&copy; 2025 Government Polytechnic Nainital. All Rights Reserved.</p>
+    </div>
+  </footer>  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slideshow img');
+    setInterval(() => {
+      slides[slideIndex].classList.remove('active');
+      slideIndex = (slideIndex + 1) % slides.length;
+      slides[slideIndex].classList.add('active');
+    }, 3000);
+  </script></body>
+</html>

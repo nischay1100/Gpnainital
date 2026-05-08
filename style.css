@@ -1,4 +1,4 @@
-/* Reset and base styles */
+/*base styles */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -6,7 +6,7 @@ body { font-family: Arial, sans-serif; background-color: #121212; color: #fff; l
 
 .container { max-width: 1200px; margin: auto; padding: 20px; }
 
-/* ===== HEADER STYLING FIXED ===== */
+/*HEADER STYLING*/
 header {
   background-color: #1f1f1f;
   padding: 10px 20px;
@@ -152,7 +152,7 @@ iframe {
   margin: 0 auto;
 }
 
-/* ===== DEPARTMENTS PAGE STYLING ===== */
+/*DEPARTMENTS PAGE STYLING*/
 
 .header {
   background-color: #111;
@@ -214,7 +214,7 @@ iframe {
   font-size: 14px;
 }
 
-/* ===== CONTACT PAGE STYLING ===== */
+/*CONTACT PAGE STYLING*/
 
 .contact-container {
   display: flex;
@@ -258,7 +258,7 @@ iframe {
   box-shadow: 0 0 10px #000;
 }
 
-/* ===== GALLERY STYLING ===== */
+/*GALLERY STYLING*/
 
 .gallery-grid {
   display: grid;
@@ -289,7 +289,7 @@ iframe {
   color: #00bcd4;
 }
 
-/* ===== VIDEO GALLERY STYLING ===== */
+/*VIDEO GALLERY STYLING*/
 
 .video-gallery {
   display: grid;
